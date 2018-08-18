@@ -1,0 +1,16 @@
+[
+{
+  "modid": "pstm",
+  "name": "Tutorial Mod",
+  "description": "Just a mod created using a Tutorial",
+  "version": "1.0",
+  "mcversion": "1.12.2",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Placid_Storm"],
+  "credits": "Loremaster for making a Tutorial",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
