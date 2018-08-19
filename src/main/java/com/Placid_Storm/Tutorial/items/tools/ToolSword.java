@@ -1,18 +1,18 @@
-package com.Placid_Storm.Tutorial.items;
+package com.Placid_Storm.Tutorial.items.tools;
 
 import com.Placid_Storm.Tutorial.Main;
 import com.Placid_Storm.Tutorial.init.ModItems;
 import com.Placid_Storm.Tutorial.util.IHasModel;
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.item.Item;
+import net.minecraft.item.ItemSword;
 
-public class ItemBase extends Item implements IHasModel {
+public class ToolSword extends ItemSword implements IHasModel {
+    public ToolSword(String name, ToolMaterial material){
 
-    public ItemBase(String name){
+        super(material);
         setUnlocalizedName(name);
         setRegistryName(name);
-        setCreativeTab(CreativeTabs.MATERIALS);
-        //setContainerItem(this.setDamage(this,1));
+        setCreativeTab(CreativeTabs.COMBAT);
 
         ModItems.ITEMS.add(this);
     }
@@ -23,4 +23,5 @@ public class ItemBase extends Item implements IHasModel {
         Main.proxy.registerItemRenderer(this, 0,"inventory");
 
     }
+
 }
