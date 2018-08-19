@@ -1,5 +1,6 @@
 package com.Placid_Storm.Tutorial;
 
+import com.Placid_Storm.Tutorial.init.ModRecipes;
 import com.Placid_Storm.Tutorial.proxy.CommonProxy;
 
 import com.Placid_Storm.Tutorial.util.Reference;
@@ -31,7 +32,7 @@ public class Main {
     @EventHandler
     public void Init(FMLInitializationEvent event)
     {
-
+        ModRecipes.init();
     }
 
     @EventHandler
