@@ -4,6 +4,7 @@ item.obsidian_ingot.name=Obsidian Ingot
 
 //Blocks
 tile.ruby_block.name=Ruby Block
+tile.ruby_ore.name=Ruby Ore
 
 //Tools
 item.ruby_axe.name=Ruby Axe
