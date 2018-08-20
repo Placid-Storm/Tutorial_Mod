@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    " R ",
+    "RGR",
+    " R "
+  ],
+
+  "key":
+  {
+    "R":
+    {
+      "item": "pstm:ruby"
+    },
+    "G":
+    {
+      "item": "minecraft:golden_sword"
+    }
+  },
+
+  "result":
+  {
+    "item": "pstm:ruby_sword",
+    "count": 1
+  }
+}
