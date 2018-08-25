@@ -14,6 +14,7 @@ public class ToolPickaxe extends ItemPickaxe implements IHasModel {
         setUnlocalizedName(name);
         setRegistryName(name);
         setCreativeTab(CreativeTabs.TOOLS);
+        setMaxDamage(-1);
 
         ModItems.ITEMS.add(this);
     }
