@@ -25,6 +25,7 @@ public class RegistryHandler {
     public static void onBlockRegister(RegistryEvent.Register<Block> event){
 
         event.getRegistry().registerAll(ModBlocks.BLOCKS.toArray(new Block[0]));
+        TileEntityHandler.registerTileEntities();
     }
 //Subscribe Event to assign models if the item has a model.
     @SubscribeEvent

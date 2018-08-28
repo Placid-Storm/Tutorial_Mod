@@ -1,0 +1,8 @@
+{
+  "parent": "block/orientable",
+  "textures":{
+    "top": "pstm:blocks/Iron_furnace_top",
+    "front": "pstm:blocks/Iron_furnace_front_off",
+    "side": "pstm:blocks/Iron_furnace_side"
+  }
+}

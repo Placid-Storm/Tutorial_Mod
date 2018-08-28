@@ -9,8 +9,8 @@ public class Reference {
 
     public static final String CLIENT_PROXY_CLASS = "com.Placid_Storm.Tutorial.proxy.ClientProxy";
     public static final String COMMON_PROXY_CLASS = "com.Placid_Storm.Tutorial.proxy.CommonProxy";
-/*    public static final String SERVER_PROXY_CLASS = "com.Placid_Storm.Tutorial.proxy.ServerProxy";
-    public static final String "";
+    public static final int GUI_IRON_FURNACE = 0;
+/*    public static final String "";
     public static final String "";
     public static final String "";
 */

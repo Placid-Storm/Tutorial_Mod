@@ -5,6 +5,7 @@ item.obsidian_ingot.name=Obsidian Ingot
 //Blocks
 tile.ruby_block.name=Ruby Block
 tile.ruby_ore.name=Ruby Ore
+tile.iron_furnace.name=Iron Furnace
 
 //Tools
 item.ruby_axe.name=Ruby Axe
@@ -18,3 +19,6 @@ item.ruby_helmet.name=Ruby Helmet
 item.ruby_chestplate.name=Ruby Chestplate
 item.ruby_leggings.name=Ruby Leggings
 item.ruby_boots.name=Ruby Boots
+
+//Containers
+container.iron_furnace=Iron Furnace

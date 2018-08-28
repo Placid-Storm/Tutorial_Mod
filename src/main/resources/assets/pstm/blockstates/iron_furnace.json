@@ -1,0 +1,12 @@
+{
+  "variants":{
+    "burning=false,facing=north":{"model":"pstm:iron_furnace"},
+    "burning=false,facing=east":{"model":"pstm:iron_furnace", "y": 90},
+    "burning=false,facing=south":{"model":"pstm:iron_furnace", "y": 180},
+    "burning=false,facing=west":{"model":"pstm:iron_furnace", "y": 270},
+    "burning=true,facing=north":{"model":"pstm:lit_iron_furnace"},
+    "burning=true,facing=east":{"model":"pstm:lit_iron_furnace", "y": 90},
+    "burning=true,facing=south":{"model":"pstm:lit_iron_furnace", "y": 180},
+    "burning=true,facing=west":{"model":"pstm:lit_iron_furnace", "y": 270}
+  }
+}
