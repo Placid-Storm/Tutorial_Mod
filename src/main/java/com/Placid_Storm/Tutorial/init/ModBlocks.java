@@ -14,5 +14,5 @@ public class ModBlocks {
 
     public static final Block RUBY_BLOCK = new RubyBlock("ruby_block", Material.IRON);
     public static final Block RUBY_ORE = new RubyOre("ruby_ore", Material.ROCK);
-    public static final Block IRON_FURNACE = new Iron_Furnace("iron_furnace",Material.IRON);
+    public static final Block IRON_FURNACE = new Iron_Furnace("iron_furnace",Material.IRON,false);
 }

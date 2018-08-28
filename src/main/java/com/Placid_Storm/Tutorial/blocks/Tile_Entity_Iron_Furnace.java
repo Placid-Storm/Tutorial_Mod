@@ -207,7 +207,7 @@ public class Tile_Entity_Iron_Furnace extends TileEntity implements ITickable {
 
             if (output.isEmpty())
             {
-                this.handler.setStackInSlot(2, result.copy());
+                this.handler.setStackInSlot(3, result.copy());
             }
             else if (output.getItem() == result.getItem())
             {
